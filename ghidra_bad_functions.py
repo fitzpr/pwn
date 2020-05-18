@@ -25,6 +25,5 @@ while function is not None:
     for banned in blist:
         if function.getName() == banned:
             print "%s found at %s" % (function.getName(),function.getEntryPoint())  
-            #function.setComment("Badness!")
     function = getFunctionAfter(function)
 print
